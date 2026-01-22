@@ -82,10 +82,10 @@ const Header = ({ search, setSearch }) => {
             )}
           </Link>
           <div className="flex items-center gap-6">
-            <FaUser />
-            <h2 className="hidden md:block text-sm">Username</h2>
+            <FaUser className="text-xl text-orange-400 cursor-pointer hover:text-orange-500"/>
+            <h2 className="hidden md:block text-sm">Hi, Abhay</h2>
             <button className="text-lg cursor-pointer">
-              <FaSignOutAlt />
+              <FaSignOutAlt className="text-xl text-orange-400 cursor-pointer hover:text-orange-500"/>
             </button>
           </div>
         </div>
@@ -125,3 +125,4 @@ const Header = ({ search, setSearch }) => {
 };
 
 export default Header;
+

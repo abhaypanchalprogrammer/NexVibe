@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { FaCcVisa, FaCcMastercard, FaCcPaypal } from "react-icons/fa";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -94,4 +95,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
 

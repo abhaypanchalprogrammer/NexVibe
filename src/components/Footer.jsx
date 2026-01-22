@@ -42,16 +42,15 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-2">Quick Links</h3>
           <ul className="flex flex-col gap-2 text-gray-400">
             <li className="hover:text-white transition-colors cursor-pointer">
-              Home
+              <Link to="/">Home</Link>
+             
             </li>
             <li className="hover:text-white transition-colors cursor-pointer">
-              Shop
+                <Link to="/product">Products</Link>
             </li>
+           
             <li className="hover:text-white transition-colors cursor-pointer">
-              Categories
-            </li>
-            <li className="hover:text-white transition-colors cursor-pointer">
-              Contact
+               <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
@@ -95,3 +94,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

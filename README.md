@@ -4,7 +4,7 @@ A modern e-commerce frontend built with React that consumes the DummyJSON API to
 This project focuses on real-world frontend architecture, clean state management, and reusable components.
 
 - Live Demo
-- (Add your deployed link here)
+- https://nex-vibe-app.vercel.app/
 - Why This Project?
 
 Most beginner projects only fetch and display data.
